@@ -8,5 +8,6 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [TUPÉ Parrilla](tupe/)
 - [Las Brasas de Moro](las-brasas-de-moro/)
 - [AOA HVAC](aoa-hvac/)
+- [Destapaciones Capital](destapaciones-capital/)
 
 Hecho por LCA ITECH.
