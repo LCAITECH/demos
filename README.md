@@ -9,5 +9,10 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [Las Brasas de Moro](las-brasas-de-moro/)
 - [AOA HVAC](aoa-hvac/)
 - [Destapaciones Capital](destapaciones-capital/)
+- [Mica Devaneo Studio](mica-devaneo-studio/)
+- [Magna Peluquería Unisex & Estética](magna-peluquerias/)
+- [Odonto Martín García](odonto-martin-garcia/)
+- [Hakuna Pet](hakuna-pet/)
+- [KinesioVet](kinesiovet/)
 
 Hecho por LCA ITECH.
