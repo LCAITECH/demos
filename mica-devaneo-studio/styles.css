@@ -71,8 +71,12 @@ input,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-
   border-top:1px solid var(--line);z-index:15}
 .sticky-cta .btn{flex:1}
 footer{padding:28px 0 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line);background:#fff}
+
 @media(max-width:700px){
   nav.links{display:none}
   .sticky-cta{padding-bottom:calc(10px + env(safe-area-inset-bottom, 0px))}
+  .hero{padding-bottom:110px}
+  .logo{height:58px}
+  .hero-photo img{max-height:280px;object-fit:cover;object-position:center 25%}
 }
 @media(min-width:800px){.sticky-cta{display:none}}
