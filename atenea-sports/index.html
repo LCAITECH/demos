@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Atenea Sports · Entrenamiento y rehabilitación en Villa Urquiza</title>
+  <meta name="description" content="Centro deportivo y de rehabilitación en Bauness 958, Villa Urquiza, dentro del Club Agronomía Central. Entrenamiento, readaptación y kinesiología.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="wrap nav">
+      <a href="#inicio"><img class="logo" src="assets/logo.png" alt="Atenea Sports"></a>
+      <nav class="links" aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#espacio">El espacio</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Bauness 958 · Villa Urquiza · Club Agronomía Central</p>
+        <h1>Entrená distinto: preparación física, readaptación y kinesiología.</h1>
+        <p class="lead">Desde hace 9 años, Atenea Sports es un centro deportivo y de rehabilitación en Villa Urquiza. El objetivo es ayudarte a alcanzar tu mejor versión, según tus objetivos, posibilidades y necesidades.</p>
+        <p class="phone-xl"><a href="tel:+5491173682103">11 7368-2103</a></p>
+        <div class="cta-row">
+          <a class="btn secondary" href="https://wa.me/5491173682103">WhatsApp</a>
+          <a class="btn" href="mailto:espacioateneasports@gmail.com">Escribir un mail</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 5,0 en Google · 95 opiniones</p>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero.jpg" alt="Entrenamiento en Atenea Sports, Villa Urquiza" style="object-position:center 40%">
+      </div>
+    </div>
+  </section>
+
+  <section id="espacio">
+    <div class="wrap grid grid-2">
+      <article class="card">
+        <h2>Un enfoque integral</h2>
+        <p>Cada sesión, cada trabajo y cada ejercicio está pensado por sus profesionales para que vivas el deporte, el ejercicio y la actividad física con la misma calidad que lo hacen los profesionales, tal como lo presentan en su sitio.</p>
+      </article>
+      <div class="hero-photo" style="padding:0;overflow:hidden">
+        <img src="assets/gym.jpg" alt="Espacio de Atenea Sports" style="border-radius:16px;height:100%;object-fit:cover">
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="wrap">
+      <h2>Qué servicios brindan</h2>
+      <div class="grid grid-2" style="margin-top:18px">
+        <article class="card"><h3>Entrenamiento y preparación física</h3><p>Entrenamiento personalizado, pensado para tus objetivos.</p></article>
+        <article class="card"><h3>Readaptación deportiva</h3><p>Vuelta al movimiento después de una lesión, con un enfoque funcional.</p></article>
+        <article class="card"><h3>Evaluaciones kinésicas funcionales</h3><p>Una mirada profesional para entender cómo te movés y qué necesita tu cuerpo.</p></article>
+        <article class="card"><h3>Kinesiología</h3><p>Rehabilitación de lesiones, en el mismo espacio de entrenamiento.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <div class="wrap grid grid-2">
+      <article class="card">
+        <h2>Dónde estamos</h2>
+        <p>Bauness 958, Villa Urquiza, CABA, dentro del Club Agronomía Central.</p>
+        <p>Para el horario del día, lo más seguro es confirmarlo por WhatsApp.</p>
+      </article>
+      <article class="card">
+        <h2>Contacto</h2>
+        <p>WhatsApp: <a href="https://wa.me/5491173682103">11 7368-2103</a><br>
+        Mail: <a href="mailto:espacioateneasports@gmail.com">espacioateneasports@gmail.com</a></p>
+      </article>
+    </div>
+    <div class="wrap" style="margin-top:18px">
+      <iframe class="map" title="Mapa de Atenea Sports en Villa Urquiza" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Bauness+958,+Villa+Urquiza,+CABA&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="card">
+        <h2>Empezá a entrenar distinto</h2>
+        <p>Escribinos al <a href="https://wa.me/5491173682103">11 7368-2103</a> o a <a href="mailto:espacioateneasports@gmail.com">espacioateneasports@gmail.com</a>.</p>
+        <div class="cta-row" style="margin-bottom:16px">
+          <a class="btn" href="https://wa.me/5491173682103">WhatsApp</a>
+          <a class="btn alt" href="tel:+5491173682103">Llamar</a>
+        </div>
+        <form id="form-atenea" action="mailto:espacioateneasports@gmail.com" method="post" enctype="text/plain">
+          <label>Nombre <input name="nombre" required autocomplete="name"></label>
+          <label>Teléfono o WhatsApp <input name="telefono" type="tel" required autocomplete="tel"></label>
+          <label>Mensaje <textarea name="mensaje" rows="4" placeholder="¿Querés entrenar, rehabilitarte o hacer una evaluación?"></textarea></label>
+          <button class="btn alt" type="submit">Enviar consulta</button>
+          <p class="form-note">En esta demo el formulario abre tu cliente de correo (mailto). En el sitio definitivo se puede conectar a un servicio de envío, sin un backend propio.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a class="btn" href="tel:+5491173682103">Llamar</a>
+    <a class="btn alt" href="https://wa.me/5491173682103">WhatsApp</a>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>Atenea Sports · Bauness 958, Villa Urquiza, CABA · Club Agronomía Central</p>
+      <p>Demo preparada por LCA ITECH</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('form-atenea').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = 'Nombre: ' + f.nombre.value + '\nTeléfono: ' + f.telefono.value + '\n\n' + f.mensaje.value;
+      location.href = 'mailto:espacioateneasports@gmail.com?subject=' + encodeURIComponent('Consulta desde la web') + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>

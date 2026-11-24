@@ -14,5 +14,10 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [Odonto Martín García](odonto-martin-garcia/)
 - [Hakuna Pet](hakuna-pet/)
 - [KinesioVet](kinesiovet/)
+- [Electromecánica Herz](electromecanica-herz/)
+- [Veterinaria Virreyes](veterinaria-virreyes/)
+- [Estudio Corbino](estudio-corbino/)
+- [Atenea Sports](atenea-sports/)
+- [Dra. Anabella Requena](anabella-requena/)
 
 Hecho por LCA ITECH.
