@@ -24,5 +24,10 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [Kinetrust](kinetrust/)
 - [Veterinaria Kentucky](veterinaria-kentucky/)
 - [Integral Vet](integral-vet/)
+- [Alphas Club Barbería](alphas-club/)
+- [5M Studio](5m-studio/)
+- [Per•Te EcoBeauty](per-te/)
+- [Riven Salón](riven-salon/)
+- [Automotriz JRV](automotriz-jrv/)
 
 Hecho por LCA ITECH.
