@@ -75,8 +75,13 @@ footer{padding:28px 0 48px;color:var(--muted);font-size:.85rem;border-top:1px so
 @media(max-width:700px){
   nav.links{display:none}
   .sticky-cta{padding-bottom:calc(10px + env(safe-area-inset-bottom, 0px))}
-  .hero{padding-bottom:110px}
-  .logo{height:58px}
-  .hero-photo img{max-height:280px;object-fit:cover;object-position:center 25%}
+  .hero{padding:28px 0 110px}
+  .hero-grid{gap:16px}
+  .lead{font-size:1rem}
+  .cta-row{margin-top:12px}
+  .rating{margin-top:10px}
+  .logo{height:48px}
+  .hero-photo{padding:8px}
+  .hero-photo img{max-height:220px;object-fit:cover;object-position:center 40%}
 }
 @media(min-width:800px){.sticky-cta{display:none}}
