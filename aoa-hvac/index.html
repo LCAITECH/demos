@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>AOA HVAC · Heating and Cooling in the DMV</title>
+  <meta name="description" content="AOA HVAC: residential and commercial HVAC sales, service, installation and repair in the DMV area. Serving the region since 2013.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a href="#home"><img class="logo" src="assets/logo.png" alt="AOA HVAC"></a>
+      <nav class="links" aria-label="Sections">
+        <a href="#services">Services</a>
+        <a href="#area">Service area</a>
+        <a href="#contact">Get a quote</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="wrap">
+      <p class="kicker">Ashburn, VA · DMV area</p>
+      <h1>Heating and cooling you can call today.</h1>
+      <p class="lead">AOA HVAC has served homes and businesses across the DMV since 2013. Sales, service, installation, repair, indoor air quality and maintenance contracts — with financing available.</p>
+      <div class="cta-row">
+        <a class="btn" href="tel:+15712437917">Call 571-243-7917</a>
+        <a class="btn blue" href="tel:+17036229987">Call 703-622-9987</a>
+        <a class="btn secondary" href="#contact">Request a quote</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="wrap">
+      <h2>Services</h2>
+      <p>Residential and commercial work, as listed on the company’s public site.</p>
+      <div class="grid grid-3" style="margin-top:18px">
+        <article class="card"><h3>Sales</h3><p>Help choosing and supplying HVAC equipment for your home or business.</p></article>
+        <article class="card"><h3>Installation</h3><p>New system installation for residential and commercial properties.</p></article>
+        <article class="card"><h3>Repair</h3><p>Diagnostic and repair service when a system is not cooling or heating as it should.</p></article>
+        <article class="card"><h3>Service</h3><p>Ongoing service visits to keep equipment running reliably.</p></article>
+        <article class="card"><h3>Indoor air quality</h3><p>Options to improve the air that moves through your system.</p></article>
+        <article class="card"><h3>Maintenance contracts</h3><p>Scheduled maintenance so small issues are caught early.</p></article>
+      </div>
+      <p class="fine" style="margin-top:16px">Financing is available. AOA HVAC Co holds Virginia HVAC license 2705166421 (active when last checked in public records).</p>
+    </div>
+  </section>
+
+  <section id="area">
+    <div class="wrap grid grid-2">
+      <div>
+        <h2>Service area</h2>
+        <p>Based in Ashburn, Virginia, and serving the DMV area (Washington, D.C., Maryland and Virginia) since 2013.</p>
+        <p>44050 Ashburn Shopping Plaza, Ste 195-616<br>Ashburn, VA 20147</p>
+        <p>Email: <a href="mailto:AA@AOAHVAC.COM">AA@AOAHVAC.COM</a></p>
+      </div>
+      <iframe class="map" title="Map of AOA HVAC in Ashburn, Virginia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=44050+Ashburn+Shopping+Plz,+Ashburn,+VA+20147&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <div class="card">
+        <h2>Request a quote</h2>
+        <p>Call <a href="tel:+15712437917">571-243-7917</a> or <a href="tel:+17036229987">703-622-9987</a>, or send a message to <a href="mailto:AA@AOAHVAC.COM">AA@AOAHVAC.COM</a>.</p>
+        <form id="form-aoa" action="mailto:AA@AOAHVAC.COM" method="post" enctype="text/plain">
+          <label>Name <input name="name" required autocomplete="name"></label>
+          <label>Phone <input name="phone" type="tel" required autocomplete="tel"></label>
+          <label>Email <input name="email" type="email" autocomplete="email"></label>
+          <label>ZIP / city <input name="area" placeholder="Ashburn, VA"></label>
+          <label>How can we help? <textarea name="message" rows="4" placeholder="Installation, repair, maintenance…"></textarea></label>
+          <button class="btn blue" type="submit">Send quote request</button>
+          <p class="form-note">In this demo the form opens your email client (mailto). On the final site it can be connected to a sending service, without a custom backend.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a class="btn" href="tel:+15712437917">571-243-7917</a>
+    <a class="btn blue" href="tel:+17036229987">703-622-9987</a>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>AOA HVAC · Ashburn, VA · Serving the DMV since 2013</p>
+      <p>Demo prepared by LCA ITECH</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('form-aoa').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = 'Name: ' + f.name.value + '\nPhone: ' + f.phone.value + '\nEmail: ' + f.email.value + '\nArea: ' + f.area.value + '\n\n' + f.message.value;
+      location.href = 'mailto:AA@AOAHVAC.COM?subject=' + encodeURIComponent('Quote request from the website') + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>
