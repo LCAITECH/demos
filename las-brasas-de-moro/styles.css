@@ -58,3 +58,10 @@ input,textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-
 footer{padding:28px 0 48px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
 .hours td{padding:6px 0}.hours td:last-child{text-align:right;font-weight:700}
 @media(min-width:800px){.sticky-cta{display:none}}
+
+@media (max-width: 700px){
+  nav.links{display:none}
+  main, .hero{padding-bottom: 8px}
+  body{padding-bottom: 4px}
+  .sticky-cta{padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px))}
+}
