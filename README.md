@@ -19,5 +19,10 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [Estudio Corbino](estudio-corbino/)
 - [Atenea Sports](atenea-sports/)
 - [Dra. Anabella Requena](anabella-requena/)
+- [Dentymed](dentymed/)
+- [GlobAnimal](globanimal/)
+- [Kinetrust](kinetrust/)
+- [Veterinaria Kentucky](veterinaria-kentucky/)
+- [Integral Vet](integral-vet/)
 
 Hecho por LCA ITECH.

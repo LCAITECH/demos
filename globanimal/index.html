@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>GlobAnimal · Peluquería y clínica veterinaria en Providencia</title>
+  <meta name="description" content="Peluquería y clínica veterinaria en Av. Alférez Real 923, Providencia. Consultas, cirugía, laboratorio, farmacia y peluquería canina y felina.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a href="#inicio"><img class="logo" src="assets/logo.png" alt="GlobAnimal"></a>
+      <nav class="links" aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Alférez Real 923 · Providencia</p>
+        <h1>Peluquería y clínica veterinaria en el corazón de Providencia.</h1>
+        <p class="lead">GlobAnimal reúne consulta, cirugía, laboratorio, farmacia, pet shop y peluquería canina y felina en un mismo espacio, a pasos de Barrio Italia.</p>
+        <p class="phone-xl"><a href="tel:+56962348757">9 6234 8757</a></p>
+        <div class="cta-row">
+          <a class="btn" href="https://wa.me/56962348757">WhatsApp</a>
+          <a class="btn secondary" href="mailto:info@globanimal.cl">Escribir un mail</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,8 en Google · 665 opiniones</p>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/logo.png" alt="Logo de GlobAnimal">
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="wrap">
+      <h2>Qué servicios brindan</h2>
+      <div class="grid grid-3" style="margin-top:18px">
+        <article class="card"><h3>Consultas</h3><p>Atención veterinaria para el cuidado cotidiano de tu mascota.</p></article>
+        <article class="card"><h3>Cirugía</h3><p>Procedimientos quirúrgicos en la misma clínica.</p></article>
+        <article class="card"><h3>Laboratorio y farmacia</h3><p>Apoyo diagnóstico y medicamentos en el mismo lugar.</p></article>
+        <article class="card"><h3>Peluquería canina y felina</h3><p>Baño y peluquería para perros y gatos, junto a la atención clínica.</p></article>
+        <article class="card"><h3>Pet shop y alimento</h3><p>Productos y alimento para complementar el cuidado de tu mascota.</p></article>
+        <article class="card"><h3>Docencia e investigación</h3><p>Una clínica que también se presenta con un rol de docencia e investigación.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <div class="wrap grid grid-2">
+      <article class="card">
+        <h2>Dónde estamos</h2>
+        <p>Av. Alférez Real 923, Providencia, Santiago.</p>
+        <p>Lunes a viernes, de 9:00 a 18:00.<br>Sábado, de 9:00 a 15:00.</p>
+      </article>
+      <article class="card">
+        <h2>Contacto</h2>
+        <p>WhatsApp: <a href="https://wa.me/56962348757">9 6234 8757</a><br>
+        Teléfono: <a href="tel:+56222095906">2 2209 5906</a><br>
+        Mail: <a href="mailto:info@globanimal.cl">info@globanimal.cl</a><br>
+        Instagram: <a href="https://www.instagram.com/globanimal" target="_blank" rel="noopener">@globanimal</a></p>
+      </article>
+    </div>
+    <div class="wrap" style="margin-top:18px">
+      <iframe class="map" title="Mapa de GlobAnimal en Providencia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Av.+Alf%C3%A9rez+Real+923,+Providencia,+Santiago&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="card">
+        <h2>Agenda la hora de tu mascota</h2>
+        <p>Escríbenos al <a href="https://wa.me/56962348757">9 6234 8757</a> o a <a href="mailto:info@globanimal.cl">info@globanimal.cl</a>.</p>
+        <div class="cta-row" style="margin-bottom:16px">
+          <a class="btn" href="https://wa.me/56962348757">WhatsApp</a>
+          <a class="btn alt" href="tel:+56962348757">Llamar</a>
+        </div>
+        <form id="form-globanimal" action="mailto:info@globanimal.cl" method="post" enctype="text/plain">
+          <label>Nombre <input name="nombre" required autocomplete="name"></label>
+          <label>Teléfono o WhatsApp <input name="telefono" type="tel" required autocomplete="tel"></label>
+          <label>Mensaje <textarea name="mensaje" rows="4" placeholder="Cuéntanos si buscas consulta, peluquería u otro servicio."></textarea></label>
+          <button class="btn alt" type="submit">Enviar consulta</button>
+          <p class="form-note">En esta demo el formulario abre tu cliente de correo (mailto). En el sitio definitivo se puede conectar a un servicio de envío, sin un backend propio.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a class="btn" href="tel:+56962348757">Llamar</a>
+    <a class="btn alt" href="https://wa.me/56962348757">WhatsApp</a>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>GlobAnimal · Av. Alférez Real 923, Providencia, Santiago</p>
+      <p>Demo preparada por LCA ITECH</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('form-globanimal').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = 'Nombre: ' + f.nombre.value + '\nTeléfono: ' + f.telefono.value + '\n\n' + f.mensaje.value;
+      location.href = 'mailto:info@globanimal.cl?subject=' + encodeURIComponent('Consulta desde la web') + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>

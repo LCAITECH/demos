@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Veterinaria Kentucky · La Granja</title>
+  <meta name="description" content="Veterinaria en Padre Esteban Gumucio 251, La Granja. Consulta general, vacunas, laboratorio, farmacia y pet shop.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark" style="background:#fff;border:1px solid var(--line)"><img src="assets/logo.png" alt=""></span>
+        <span>
+          <span class="brand-small">Veterinaria · La Granja</span>
+          <span class="brand-name">Veterinaria Kentucky</span>
+        </span>
+      </a>
+      <nav class="links" aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Padre Esteban Gumucio 251 · La Granja</p>
+        <h1>Atención veterinaria cercana en La Granja, para el cuidado de tu mascota.</h1>
+        <p class="lead">Veterinaria Kentucky ofrece consulta general, vacunas, desparasitaciones, laboratorio, farmacia y pet shop, con un trato cercano en el sur de Santiago.</p>
+        <p class="phone-xl"><a href="tel:+56941000098">9 4100 0098</a></p>
+        <div class="cta-row">
+          <a class="btn" href="https://wa.me/56941000098">Reserva tu hora</a>
+          <a class="btn secondary" href="mailto:veterinariakentucky@gmail.com">Escribir un mail</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 4,7 en Google · 235 opiniones</p>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/logo.png" alt="Logo de Veterinaria Kentucky">
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="wrap">
+      <h2>Qué servicios brindan</h2>
+      <div class="grid grid-3" style="margin-top:18px">
+        <article class="card"><h3>Consulta general</h3><p>Atención veterinaria para el control y el cuidado cotidiano de tu mascota.</p></article>
+        <article class="card"><h3>Vacunas y desparasitaciones</h3><p>Medicina preventiva para mantener a tu perro o gato protegido.</p></article>
+        <article class="card"><h3>Procedimientos básicos</h3><p>Procedimientos de baja complejidad, en la misma clínica.</p></article>
+        <article class="card"><h3>Laboratorio</h3><p>Exámenes de apoyo para un diagnóstico más claro.</p></article>
+        <article class="card"><h3>Farmacia</h3><p>Medicamentos y productos veterinarios en el mismo lugar.</p></article>
+        <article class="card"><h3>Pet shop</h3><p>Artículos para complementar el cuidado de tu mascota.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <div class="wrap grid grid-2">
+      <article class="card">
+        <h2>Dónde estamos</h2>
+        <p>Padre Esteban Gumucio 251, La Granja, Santiago.</p>
+        <p>Lunes a viernes, de 9:00 a 20:30.<br>Sábado y domingo, de 10:00 a 17:30.</p>
+      </article>
+      <article class="card">
+        <h2>Contacto</h2>
+        <p>WhatsApp: <a href="https://wa.me/56941000098">9 4100 0098</a><br>
+        Mail: <a href="mailto:veterinariakentucky@gmail.com">veterinariakentucky@gmail.com</a></p>
+      </article>
+    </div>
+    <div class="wrap" style="margin-top:18px">
+      <iframe class="map" title="Mapa de Veterinaria Kentucky en La Granja" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Padre+Esteban+Gumucio+251,+La+Granja,+Santiago&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="card">
+        <h2>Agenda la hora de tu mascota</h2>
+        <p>Escríbenos al <a href="https://wa.me/56941000098">9 4100 0098</a> o a <a href="mailto:veterinariakentucky@gmail.com">veterinariakentucky@gmail.com</a>.</p>
+        <div class="cta-row" style="margin-bottom:16px">
+          <a class="btn" href="https://wa.me/56941000098">WhatsApp</a>
+          <a class="btn alt" href="tel:+56941000098">Llamar</a>
+        </div>
+        <form id="form-kentucky" action="mailto:veterinariakentucky@gmail.com" method="post" enctype="text/plain">
+          <label>Nombre <input name="nombre" required autocomplete="name"></label>
+          <label>Teléfono o WhatsApp <input name="telefono" type="tel" required autocomplete="tel"></label>
+          <label>Mensaje <textarea name="mensaje" rows="4" placeholder="Cuéntanos qué necesita tu mascota."></textarea></label>
+          <button class="btn alt" type="submit">Enviar consulta</button>
+          <p class="form-note">En esta demo el formulario abre tu cliente de correo (mailto). En el sitio definitivo se puede conectar a un servicio de envío, sin un backend propio.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a class="btn" href="tel:+56941000098">Llamar</a>
+    <a class="btn alt" href="https://wa.me/56941000098">WhatsApp</a>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>Veterinaria Kentucky · Padre Esteban Gumucio 251, La Granja, Santiago</p>
+      <p>Demo preparada por LCA ITECH</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('form-kentucky').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = 'Nombre: ' + f.nombre.value + '\nTeléfono: ' + f.telefono.value + '\n\n' + f.mensaje.value;
+      location.href = 'mailto:veterinariakentucky@gmail.com?subject=' + encodeURIComponent('Consulta desde la web') + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>

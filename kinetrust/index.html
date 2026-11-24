@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Kinetrust · Kinesiología en Providencia</title>
+  <meta name="description" content="Kinesiología funcional y entrenamiento personalizado en Av. Providencia 1650, oficina 805, Providencia.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#inicio">
+        <span class="brand-mark"><img src="assets/logo.png" alt=""></span>
+        <span>
+          <span class="brand-small">Kinesiología · Providencia</span>
+          <span class="brand-name">Kinetrust</span>
+        </span>
+      </a>
+      <nav class="links" aria-label="Secciones">
+        <a href="#servicios">Servicios</a>
+        <a href="#espacio">El espacio</a>
+        <a href="#ubicacion">Ubicación</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="inicio">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Providencia 1650, of. 805 · Providencia</p>
+        <h1>Kinesiología funcional en Providencia, para recuperar tu movimiento.</h1>
+        <p class="lead">Kinetrust es un centro de kinesiología especializado en salud músculo-esquelética. Diseñan planes de intervención adaptados a tus objetivos, abordando el origen del problema y no solo los síntomas.</p>
+        <p class="phone-xl"><a href="tel:+56990998634">9 9099 8634</a></p>
+        <div class="cta-row">
+          <a class="btn secondary" href="https://wa.me/56990998634">Reserva tu hora</a>
+          <a class="btn" href="mailto:contacto@kinetrust.cl">Escribir un mail</a>
+        </div>
+        <p class="rating"><span class="stars" aria-hidden="true">★★★★★</span> 5,0 en Google · 64 opiniones</p>
+      </div>
+      <div class="hero-photo">
+        <img src="assets/hero.jpg" alt="Espacio de Kinetrust en Providencia" style="object-position:center 45%">
+      </div>
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <div class="wrap">
+      <h2>Qué servicios brindan</h2>
+      <div class="grid grid-2" style="margin-top:18px">
+        <article class="card"><h3>Kinesiología personalizada</h3><p>Sesiones de kinesiología enfocadas en la rehabilitación músculo-esquelética.</p></article>
+        <article class="card"><h3>Rehabilitación personalizada</h3><p>Un plan adaptado a tus objetivos, para recuperar movimiento y calidad de vida.</p></article>
+        <article class="card"><h3>Entrenamiento funcional</h3><p>Entrenamiento funcional personalizado, de forma presencial.</p></article>
+        <article class="card"><h3>Sesión online</h3><p>También ofrecen la posibilidad de una sesión online, cuando corresponde.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="espacio">
+    <div class="wrap">
+      <article class="card">
+        <h2>Un enfoque clínico integral</h2>
+        <p>En Kinetrust no solo tratan síntomas: buscan abordar el origen de la disfunción para lograr resultados sostenibles, con un equipo de kinesiólogos especializados en el área músculo-esquelética.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="ubicacion">
+    <div class="wrap grid grid-2">
+      <article class="card">
+        <h2>Dónde estamos</h2>
+        <p>Av. Providencia 1650, oficina 805, Providencia, Santiago.</p>
+        <p>Lunes a viernes, de 9:00 a 20:00.</p>
+      </article>
+      <article class="card">
+        <h2>Contacto</h2>
+        <p>WhatsApp: <a href="https://wa.me/56990998634">9 9099 8634</a><br>
+        Mail: <a href="mailto:contacto@kinetrust.cl">contacto@kinetrust.cl</a></p>
+      </article>
+    </div>
+    <div class="wrap" style="margin-top:18px">
+      <iframe class="map" title="Mapa de Kinetrust en Providencia" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Av.+Providencia+1650,+Providencia,+Santiago&output=embed"></iframe>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="wrap">
+      <div class="card">
+        <h2>Reserva tu evaluación</h2>
+        <p>Escríbenos al <a href="https://wa.me/56990998634">9 9099 8634</a> o a <a href="mailto:contacto@kinetrust.cl">contacto@kinetrust.cl</a>.</p>
+        <div class="cta-row" style="margin-bottom:16px">
+          <a class="btn" href="https://wa.me/56990998634">WhatsApp</a>
+          <a class="btn alt" href="tel:+56990998634">Llamar</a>
+        </div>
+        <form id="form-kinetrust" action="mailto:contacto@kinetrust.cl" method="post" enctype="text/plain">
+          <label>Nombre <input name="nombre" required autocomplete="name"></label>
+          <label>Teléfono o WhatsApp <input name="telefono" type="tel" required autocomplete="tel"></label>
+          <label>Mensaje <textarea name="mensaje" rows="4" placeholder="Cuéntanos en qué podemos ayudarte."></textarea></label>
+          <button class="btn alt" type="submit">Enviar consulta</button>
+          <p class="form-note">En esta demo el formulario abre tu cliente de correo (mailto). En el sitio definitivo se puede conectar a un servicio de envío, sin un backend propio.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <div class="sticky-cta">
+    <a class="btn" href="tel:+56990998634">Llamar</a>
+    <a class="btn alt" href="https://wa.me/56990998634">WhatsApp</a>
+  </div>
+  <footer>
+    <div class="wrap">
+      <p>Kinetrust · Av. Providencia 1650, oficina 805, Providencia, Santiago</p>
+      <p>Demo preparada por LCA ITECH</p>
+    </div>
+  </footer>
+  <script>
+    document.getElementById('form-kinetrust').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var f = e.target;
+      var body = 'Nombre: ' + f.nombre.value + '\nTeléfono: ' + f.telefono.value + '\n\n' + f.mensaje.value;
+      location.href = 'mailto:contacto@kinetrust.cl?subject=' + encodeURIComponent('Consulta desde la web') + '&body=' + encodeURIComponent(body);
+    });
+  </script>
+</body>
+</html>
