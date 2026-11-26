@@ -29,5 +29,13 @@ Estas páginas **no son los sitios oficiales**. Van con `noindex` y un `robots.t
 - [Per•Te EcoBeauty](per-te/)
 - [Riven Salón](riven-salon/)
 - [Automotriz JRV](automotriz-jrv/)
+- [Plomero Emilio](plomero-emilio/)
+- [Plomero gasista ROMA](plomero-gasista-roma/)
+- [Odontología.CAM](odontologia-cam/)
+- [Diestra y Siniestra](diestra-y-siniestra/)
+- [Gasista Matriculado Alejandro Brunacci](gasista-brunacci/)
+- [Veterinaria Pacheco](veterinaria-pacheco/)
+- [Peluquería Pelos y Pelitos](pelos-y-pelitos/)
+- [El Farito Porteros Eléctricos](el-farito-porteros/)
 
 Hecho por LCA ITECH.
